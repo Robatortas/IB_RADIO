@@ -1,0 +1,64 @@
+@font-face {
+    font-family: akira;
+    src: url(fonts/akira.otf) format('woff');
+}
+
+.pfp {
+    display: flexbox;
+}
+
+.pfp:hover {
+    zoom: 110%;
+}
+
+.two_cr {
+    display: flex;
+    font-family: akira;
+}
+
+.left_cr {
+    background-color: lightgray;
+    width: 50%;
+}
+
+.right_cr {
+    background-color: darkgray;
+    width: 50%;
+}
+
+.teachers_d {
+    background-color: gray;
+    width: 33%;
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+}
+
+.teachers_dd {
+    background-color: gray;
+    width: 33%;
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    justify-content: end;
+}
+/* SCALING WRONG WITH TOP_RW */
+.top_rw {
+    display: flex;
+    justify-content: space-between;
+    height: 18vh
+}
+
+.student_row {
+    background-color: red;
+    padding: 10%;
+    gap: 25%;
+}
+
+.image_container {
+    display: grid;
+    grid-template-columns: repeat(4, 10%);
+    background-color: gray;
+    padding: 10px;
+    margin: 10px;
+}
